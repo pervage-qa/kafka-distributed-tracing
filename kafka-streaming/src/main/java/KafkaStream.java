@@ -37,7 +37,6 @@ public class KafkaStream {
         streamData.to("test_tracing_stream", Produced.with(Serdes.String(), Serdes.String()));
 
         KafkaStreams streams = kafkaStreamsTracing.kafkaStreams(builder.build(), config);
-                //new KafkaStreams(builder.build(), config);
 
         streams.cleanUp();
         streams.start();

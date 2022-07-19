@@ -15,38 +15,38 @@
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-simple</artifactId>
-            <version>1.7.30</version>
+            <version>1.7.36</version>
         </dependency>
         <dependency>
             <groupId>org.apache.kafka</groupId>
             <artifactId>kafka-clients</artifactId>
-            <version>2.4.0</version>
+            <version>3.1.0</version>
         </dependency>
         <dependency>
             <groupId>io.zipkin.brave</groupId>
             <artifactId>brave</artifactId>
-            <version>5.9.5</version>
+            <version>5.13.9</version>
         </dependency>
         <dependency>
             <groupId>io.zipkin.brave</groupId>
             <artifactId>brave-instrumentation-kafka-clients</artifactId>
-            <version>5.9.5</version>
+            <version>5.13.9</version>
         </dependency>
         <dependency>
             <groupId>io.zipkin.brave</groupId>
             <artifactId>brave-bom</artifactId>
-            <version>5.9.5</version>
+            <version>5.13.9</version>
             <type>pom</type>
         </dependency>
         <dependency>
             <groupId>io.zipkin.reporter2</groupId>
             <artifactId>zipkin-sender-urlconnection</artifactId>
-            <version>2.12.1</version>
+            <version>2.16.3</version>
         </dependency>
         <dependency>
             <groupId>io.zipkin.brave</groupId>
             <artifactId>brave-instrumentation-httpclient</artifactId>
-            <version>5.9.4</version>
+            <version>5.13.9</version>
         </dependency>
     </dependencies>
 
